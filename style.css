@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Poppins:wght@800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+.nav-logo img {
+    width: 80px;
+    display: flex;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #18181B;
+}
+
+nav {
+    max-width: 1200px;
+    margin: auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.nav-logo {
+    max-width: 100px;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    font-size: 1.35rem;
+    align-items: center;
+    gap: 3rem;
+}
+
+.link a {
+    position: relative;
+    padding-bottom: 0.75rem;
+    color: #fff;
+}
+
+.link a:hover::after {
+    width: 70%;
+}
+
+.btn {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #1d4ed8;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: rgb(108, 237, 108);
+    color: brown;
+    font-weight: 700;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 5rem 2em;
+}
+
+.blur {
+    position: absolute;
+    box-shadow: 0 0 1000px 50px green;
+    z-index: -100;
+}
+
+header {
+    position: relative;
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+header .content h4 {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+header .content h1 {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    line-height: 4rem;
+    color: #fff;
+}
+
+header .content h1 span {
+    -webkit-text-fill-color:transparent;
+    -webkit-text-stroke: 1px aqua;
+}
+
+header .content p{
+    margin-bottom: 2rem;
+    color: #ccc;
+}
+
+header .image {
+    width: 10px;
+    height: 30px;
+}
+
+header .image::before {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 38rem;
+    font-weight: 400;
+    line-height: 20rem;
+    /* color: #1d4ed8; */
+    opacity: 0.2;
+    z-index: -100;
+}
+
+.header {
+    color: #fff;
+}
+
+header .image img {
+    max-width: 600px;
+    margin: auto;
+}
+
+section .header {
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+
+.features {
+    margin-top: 2.5rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap : 2rem;
+}
+
+.features .card {
+    background-color: #27272a;
+    padding: 1rem;
+    color:#fff;
+    border: 2px solid transparent;
+    border-radius: 15px;
+}
+
+.features .card:hover {
+    background-color: #323232;
+    border: 2px solid #fff;
+}
+
+.features .card span {
+    display: inline-block;
+    background-color: #1e40af;
+    padding: 2px 9px;
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.features .card h4 {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: aqua;
+}
+
+.features .card p {
+    color: #ccc;
+    margin-bottom: 1rem;
+}
+
+.features .card a {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding: 1rem 3rem;
+}
+
+.features .card a:hover {
+    color: rgb(120, 237, 120);
+}
+
+section .bottom-container {
+    padding: 5rem 2rem;
+}
+
+.features .card span{
+
+}
+
+footer.contents {
+    height: 100px;
+    background-color: white;
+}
+
+
+
+
+
+
